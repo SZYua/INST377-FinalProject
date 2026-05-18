@@ -131,4 +131,8 @@ if(document.getElementById('histories')) {
     loadHistory();
 }
 
+function gotoSearch() {
+    window.location.href = "search.html";
+}
+
 

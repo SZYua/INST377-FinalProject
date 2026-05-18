@@ -40,6 +40,30 @@ body {
   font-family: monospace;
 }
 
+#intro, 
+#about {
+  text-align: center;
+  margin: 20px;
+  background-color: #dbffad;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+button{
+    background-color: #4a8d2f;
+    color: white;
+    border-color: black;
+    border-radius: 15px;
+    font-size: 17px;
+    margin: 5px;
+    padding: 8px 13px;
+}
+
+button:hover {
+    background-color: #fff28c;
+    color:#f08e4d
+}
+
 table {
   width: 100%;
   border-collapse: collapse;

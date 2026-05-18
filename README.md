@@ -25,7 +25,7 @@ Live Demo:
 https://inst-377-final-project-ilck.vercel.app/
 
 ## Developer Manual
-[Developer Manual] (./docs/DeveloperManual.md)
+[Developer Manual](./docs/DeveloperManual.md)
 
 ## Contributors
 - Sharon Zhang

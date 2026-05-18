@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <title>Anime Scene Finder - Search Page</title>
+    <script src="script.js" defer></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Anime Scene Finder</h1>
+    <!-- Navigation Section -->
+    <nav id="main-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="search.html">Search</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <div id="searchInput">
+        <input type="text" id="imageUrl" placeholder="Paste your image URL here">
+        <button id="searchButton">Search Anime</button>
+    </div>
+
+    <div id="results" data-aos="fade-up" style="display: none;">
+        <div id="userSearchImage">
+            <h2>Searched Image</h2>
+            <img id="searchedImage">
+        </div>
+
+        <h2>Results</h2>
+        <table id="resultsTable">
+            <thead>
+                <tr>
+                    <th>Preview</th>
+                    <th>Title</th>
+                    <th>Episode</th>
+                    <th>Similarity</th>
+                    <th>Timestamp</th>
+                    <th>Video Link</th>
+                </tr>
+            </thead>
+            <tbody id="resultsBody"></tbody>
+        </table>
+    </div>
+
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>

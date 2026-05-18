@@ -1,0 +1,22 @@
+{
+  "name": "animescenefinder",
+  "version": "1.0.0",
+  "description": "Anime scene finder app",
+  "license": "ISC",
+  "author": "Sharon Zhang",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e '*'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.104.1",
+    "body-parser": "^2.2.2",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

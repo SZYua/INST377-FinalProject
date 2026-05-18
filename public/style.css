@@ -1,0 +1,86 @@
+.bar {
+  text-align: center;
+  background-color: #549d56;
+  color: white;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 5px;
+  font-family: monospace;
+}
+
+#main-nav {
+  text-align: center;
+  background-color: #7fb644;
+  border-radius: 15px;
+  font-family: monospace;
+  margin: 5px;
+}
+
+#main-nav li {
+  display: inline-block;
+  position: relative;
+  padding: 10px;
+}
+
+#main-nav a {
+  text-decoration: none;
+  color: white;
+  border-radius: 15px;
+  padding: 8px;
+}
+
+#main-nav a:hover {
+  background-color: #dbffad;
+  color: #669237;
+}
+
+body {
+  background-color: rgb(179, 230, 183);
+  color: rgb(38, 70, 43);
+  font-family: monospace;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #dbffad;
+}
+
+#results, #histories {
+  margin-top: 30px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+#searchInput {
+  text-align: center;
+  margin: 20px;
+  background-color: #dbffad;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+#userSearchImage {
+  text-align: center;
+}
+#searchedImage {
+  margin: 20px;
+  border-radius: 12px;
+  max-width: 400px;
+}
+
+.history-block {
+  margin-top: 40px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.details-box {
+  margin-top: 20px;
+  background-color: #dbffad;
+  padding: 20px;
+  border-radius: 12px;
+}
